@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
 
 const PDFFile = () => {
   return (
-    <Document  onLoadError={console.error} >
+    <Document >
       <Page style={styles.body}>
         <Text style={styles.header} fixed></Text>
         <Image style={styles.image} src={LebronStretch} />
